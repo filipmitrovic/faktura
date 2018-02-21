@@ -1,0 +1,114 @@
+body {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.page {
+    width: 800px;
+    min-height: 29.7cm;
+    padding: 2cm;
+    margin: 0 auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+ul#ikeafaktura li {
+    display:inline;
+}
+
+#ikea {
+    position: relative;
+    right: 40px;
+}
+
+#Faktura {
+    float: right;
+    font-size: 250%;
+}
+
+#nesthogstupp {
+    float: right;
+}
+
+.Textutantable {line-height: 1.6;
+}
+
+.referens {
+    padding-top: 150px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+ul#listbottom li {
+    display:inline;
+}
+
+table td , table th {
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 80px;
+}    
+
+    .fyll {
+        padding-top: 18.5px;
+        border-top: 0px; 
+        border-bottom: 0px;
+        border-left: 0px;
+    }
+
+    .ingenborder {
+        border-top: 0px; 
+        border-bottom: 0px;
+    }
+
+    .ingensidaleft {
+        border-top: 0px; 
+        border-bottom: 0px;
+        border-left: 0px;
+
+    }
+
+    .ingensidaright {
+        border-top: 0px; 
+        border-bottom: 0px;
+        border-right: 0px;
+
+    }
+
+    .ingensidaleftonly {
+        border-left: 0px;
+
+    }
+    .ingensidarightonly {
+        border-right: 0px;
+
+    }
+
+    .ingensidaleftochright {
+        border-right: 0px;
+        border-left: 0px;
+    }
+
+    .flyttatextcellerhoger {
+        text-align: right;
+    }
+
+    .bottomtablelefttext {
+        float: right; 
+    }
